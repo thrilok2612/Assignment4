@@ -8,7 +8,7 @@ public class PatientInfo {
 
             // Step 2: Establish a connection
             Connection connection = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@localhost:1521:xe", "bhagiradhija", " ");
+                    "jdbc:oracle:thin:@localhost:1521:xe", "thrilok", " ");
 
             // Step 3: Create a statement
             Statement statement = connection.createStatement();
